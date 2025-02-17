@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('Images/Background.jpg');
+    background-color: antiquewhite;
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    background-color: rgb(33, 120, 219);
+    font-weight: 800;
+    text-align: center;
+    padding: 1.3rem;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+    border: 5px solid white;
+}
+
+.scoreBoards {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.scoreBoard h2 {
+    color: rgb(26, 23, 23);
+    font-size: 2.5rem;
+}
+
+p {
+    color: rgb(244, 225, 225);
+    font-size: 1.5rem;
+}
+
+.platform {
+
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#msg {
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 1rem;
+    border: 2px solid white;
+    border-radius: 1rem;
+    object-fit: cover;
+
+}
+
+#userScore,
+#compScore {
+    font-size: 4rem;
+    color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+    object-fit: cover;
+}
